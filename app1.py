@@ -21,8 +21,8 @@ with siteHeader:
       st.markdown('En esta hacienda se ha mantenido el sistema de cruzamiento absorbente **Montbéliarde x Holstein** que corresponde'
                   'corresponde al componente genético de la ganaderia.')
 
-df = pd.read_csv(https://github.com/jorgeord/stream/blob/main/base2.csv)
-pro10 = pd.read_csv(https://github.com/jorgeord/stream/blob/main/pro1.csv)
+df = pd.read_csv("https://github.com/jorgeord/stream/blob/main/base2.csv")
+pro10 = pd.read_csv("https://github.com/jorgeord/stream/blob/main/pro1.csv")
 
 X = df[['raza', 'dur_lactancia', 'servicios', 'natimuerto', 'aborto', 'produccion1',
              'pre_2antes', 'pre_1antes', 'pre_mesparto', 'pre_1pos', 'pre_2pos', 'hums_1antes',
