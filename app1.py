@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-st.title('Aplicación de predicción de la producción lechera')
+st.title('Aplicativo de la producción lechera por vaca del IASA')
 
 siteHeader = st.container()
 datainput = st.container()
@@ -20,7 +20,7 @@ with siteHeader:
       st.markdown('La predicción se realiza con el algoritmo de **Machine Learning** de regresión lineal que ha sido entrenado '
                   'con datos de producción de la ganadería de la Hacienda el Prado del IASA.  ')
 
-      st.markdown('En esta hacienda se ha mantenido el sistema de cruzamiento absorbente **Montbéliarde x Holstein** que corresponde'
+      st.markdown('En esta hacienda se ha mantenido el sistema de cruzamiento absorbente **Montbéliarde x Holstein** que '
                   'corresponde al componente genético de la ganaderia.')
 
 df = pd.read_csv("base2.csv")
