@@ -73,7 +73,7 @@ with datainput:
 
     st.subheader('Variables de producción')
     dur_lact = st.slider('Duración de la lactancia', 10, 500, 305, 5)
-    produccion_1= st.slider('Lactancia en muestra día 10',7.0,23.0,13.0,0.5)
+    produccion_1= st.slider('Lactancia en muestra día 10 de la producción ajustada',7.0,23.0,13.0,0.5)
 
     st.subheader('Variables de reproducción')
     servicios = st.slider('Servicios por concepción', 1, 5, 2, 1)
