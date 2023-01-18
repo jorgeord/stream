@@ -69,7 +69,7 @@ with datainput:
     st.markdown('Por favor ingrese los valores requeridos para la estimación:')
 
     st.subheader('Factores genéticos')
-    raza = st.radio('Raza',['Holstein','F1 (50% Montbéliarde, 50% Holstein)','F2 (75% Montbéliarde, 25% Holstein)','F3 (87.5% Montbéliarde, 12.5% Holstein)'])
+    raza = st.radio('Escoger entre las razas: ( cruce absorbente entre Holstein y Mombeliarde)',['Holstein','F1 (50% Montbéliarde, 50% Holstein)','F2 (75% Montbéliarde, 25% Holstein)','F3 (87.5% Montbéliarde, 12.5% Holstein)'])
 
     st.subheader('Variables de producción')
     dur_lact = st.slider('Duración de la lactancia', 10, 500, 305, 5)
@@ -144,5 +144,5 @@ q*w
 with output:
     st.header('Resultado del modelo predictivo')
 
-    st.subheader(f'La producción estimada por lactancia es: {pro_lact:.2f} kilogramos')
+    st.subheader(f'La producción estimada por lactancia es: {pro_lact:.2f} litros')
 
